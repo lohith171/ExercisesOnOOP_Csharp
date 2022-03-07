@@ -1,4 +1,4 @@
-﻿/*To access a database, we need to open a connection to it first and close it once our job is done.
+/*To access a database, we need to open a connection to it first and close it once our job is done.
 Connecting to a database depends on the type of the target database and the database
 management system (DBMS). For example, connecting to a SQL Server database is different
 from connecting to an Oracle database. But both these connections have a few things in
@@ -37,13 +37,13 @@ namespace Exercise_4
     {
         static void Main(string[] args)
         {
-            var sqlConnection = new SqlConnection("SQL ConnectionString");
-            var sqlCommand = new DbCommand(sqlConnection, "Operation On SQL Server");
-            sqlCommand.Execute("Sql");
+            DbConnection sqlConnection = new SqlConnection("SQL ConnectionString");
+            DbCommand sqlCommand = new DbCommand(sqlConnection);
+            sqlCommand.Execute();
 
-            var oracleConnection = new OracleConnection("Oracle ConnectionString");
-            var oracleCommand = new DbCommand(oracleConnection, "OperationOn Oracle Server");
-            oracleCommand.Execute("Oracle");
+            DbConnection oracleConnection = new OracleConnection("Oracle ConnectionString");
+            DbCommand oracleCommand = new DbCommand(oracleConnection);
+            oracleCommand.Execute();
             Console.ReadLine();
 
         }

@@ -16,7 +16,7 @@ namespace Exercise_2
         {
             StackOverFlowPost obj = new StackOverFlowPost("hi","hello");
             obj.UpVote();
-            Assert.AreEqual(1, obj.vote);
+            Assert.AreEqual(1, obj.getVoteValue());
 
         }
         [Test]
@@ -25,7 +25,7 @@ namespace Exercise_2
             StackOverFlowPost obj = new StackOverFlowPost("hi", "hello");
             
             obj.DownVote();
-            Assert.AreEqual(-1,obj.vote);
+            Assert.AreEqual(-1,obj.getVoteValue());
 
         }
         [Test]

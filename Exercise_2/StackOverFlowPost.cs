@@ -8,11 +8,11 @@ namespace Exercise_2
 {
     class StackOverFlowPost
     {
-        public string title { get; set; }
-        public string description { get; set; }
-        public DateTime dateTime { get; set; }
+         string title { get; set; }
+         string description { get; set; }
+         DateTime dateTime { get; set; }
 
-        public int vote;
+         int vote;
         public StackOverFlowPost(string title,string description)
         {
             this.title = title;

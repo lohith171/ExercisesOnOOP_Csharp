@@ -1,0 +1,10 @@
+C:\Users\lohithkommuru.kumar\source\repos\Practice_Exercises_OOP\ExerciseOnInterfaces\bin\Debug\ExerciseOnInterfaces.exe.config
+C:\Users\lohithkommuru.kumar\source\repos\Practice_Exercises_OOP\ExerciseOnInterfaces\bin\Debug\ExerciseOnInterfaces.exe
+C:\Users\lohithkommuru.kumar\source\repos\Practice_Exercises_OOP\ExerciseOnInterfaces\bin\Debug\ExerciseOnInterfaces.pdb
+C:\Users\lohithkommuru.kumar\source\repos\Practice_Exercises_OOP\ExerciseOnInterfaces\obj\Debug\Exercise_Interfaces.csprojAssemblyReference.cache
+C:\Users\lohithkommuru.kumar\source\repos\Practice_Exercises_OOP\ExerciseOnInterfaces\obj\Debug\Exercise_Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\lohithkommuru.kumar\source\repos\Practice_Exercises_OOP\ExerciseOnInterfaces\obj\Debug\ExerciseOnInterfaces.exe
+C:\Users\lohithkommuru.kumar\source\repos\Practice_Exercises_OOP\ExerciseOnInterfaces\obj\Debug\ExerciseOnInterfaces.pdb
+C:\Users\lohithkommuru.kumar\source\repos\Practice_Exercises_OOP\ExerciseOnInterfaces\bin\Debug\nunit.framework.dll
+C:\Users\lohithkommuru.kumar\source\repos\Practice_Exercises_OOP\ExerciseOnInterfaces\bin\Debug\nunit.framework.xml
+C:\Users\lohithkommuru.kumar\source\repos\Practice_Exercises_OOP\ExerciseOnInterfaces\obj\Debug\Exercise_Interfaces.csproj.CopyComplete

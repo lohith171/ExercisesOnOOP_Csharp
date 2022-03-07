@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,8 +18,8 @@ namespace Exercise_4
             }
             this.connectionString = connectionString;
         }
-        abstract public void Open(string db);
-       abstract public void Close(string db);
+        abstract public void Open();
+       abstract public void Close();
    
     }
 
@@ -29,13 +29,13 @@ namespace Exercise_4
         {
             Console.WriteLine("Created a Sql connection");
         }
-        public override void Open(string db)
+        public override void Open()
         {
-            Console.WriteLine(db+" Connection is opened");
+            Console.WriteLine("DB Connection is opened");
         }
-        public override void Close(string db)
+        public override void Close()
         {
-            Console.WriteLine(db+" Connection is closed");
+            Console.WriteLine("DB Connection is closed");
         }
     }
     class OracleConnection : DbConnection
@@ -44,13 +44,13 @@ namespace Exercise_4
         {
             Console.WriteLine("Created an Oracle connection");
         }
-        public override void Open(string db)
+        public override void Open()
         {
-            Console.WriteLine(db+" Connection is opened");
+            Console.WriteLine("DB Connection is opened");
         }
-        public override void Close(string db)
+        public override void Close()
         {
-            Console.WriteLine(db+" Connection is closed");
+            Console.WriteLine("DB Connection is closed");
         }
     }
 
